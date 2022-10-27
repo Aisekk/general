@@ -1,0 +1,7 @@
+#include <windows.h> - в самый верх
+
+char s[100];
+sprintf_s(s, "There is %d numbers", 3);
+OutputDebugStringA(s);
+
+TRACE("", 1)
